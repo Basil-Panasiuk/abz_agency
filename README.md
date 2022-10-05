@@ -1,7 +1,7 @@
-#Test task
+# Test task
 - [DEMO LINK](https://basil-panasiuk.github.io/abz_agency/)
 
-##Completed items
+## Completed items
 1.Working with mockups (HTML/CSS).
 
 2.Working with REST API (GET).
@@ -15,7 +15,7 @@
 
 4.Minimize and optimize images
 
-##Used libraries
+## Used libraries
 - react hook form
 - classNames
 - axios
