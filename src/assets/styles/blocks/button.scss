@@ -1,0 +1,29 @@
+.button {
+  width: 100px;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 80px;
+  color: $c-black;
+  margin: 0 auto;
+  transition: background-color 0.3s;
+
+  &--active {
+    background-color: $c-primary;
+
+    &:hover {
+      background-color: $primary-hover;
+    }
+  }
+
+  &--disabled {
+    background-color: $c-gray;
+    color: $c-white;
+
+    &:hover {
+      cursor: default;
+      background-color: $c-gray;
+    }
+  }
+}

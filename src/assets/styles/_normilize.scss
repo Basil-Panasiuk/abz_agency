@@ -1,0 +1,33 @@
+html {
+  font-family: 'Nunito', sans-serif;
+  scroll-behavior: smooth;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: $c-black;
+  font-weight: normal;
+}
+
+body {
+  background-color: $bg-color;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+h1,
+h2 {
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}

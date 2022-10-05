@@ -1,0 +1,19 @@
+.navbar {
+  background-color: $c-white;
+
+  &__wrapper {
+    height: 60px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__right {
+    display: flex;
+  }
+
+  &__btn {
+    margin-right: 10px;
+  }
+}
